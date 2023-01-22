@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -200,19 +201,24 @@ a {
     gap: 1.5rem;
 }
 
+.skill-wrapper > div{
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.049);
+}
+
 .skill-icon:hover {
     transform: scale(1.1);
     transition: all .15s ease-in-out;
 }
 
 .skill-item-blue {
-    display: block;
-    padding: 140px;
-    background-color: white;
-    text-align: center;
+    padding: 24px;
+    background-color: white;    
     border-radius: 3px;
-    width: 100px;
-    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.049);
 }
 
 .skill-item-blue:hover {
@@ -223,13 +229,9 @@ a {
 }
 
 .skill-item-orange {
-    display: block;
-    padding: 140px;
+    padding: 52px 12px;
     background-color: white;
-    text-align: center;
     border-radius: 3px;
-    width: 100px;
-    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.049);
 }
 
 .skill-item-orange:hover {
@@ -240,13 +242,9 @@ a {
 }
 
 .skill-item-green {
-    display: block;
-    padding:140px;
+    padding: 24px;
     background-color: white;
-    text-align: center;
     border-radius: 3px;
-    width: 100px;
-    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.049);
 }
 
 .skill-item-green:hover {
